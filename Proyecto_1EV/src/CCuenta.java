@@ -15,14 +15,14 @@ public class CCuenta {
     public CCuenta()
     {
     }
-
+  /*Este metodo asigna losdatos de nombre, cuenta, saldo a la CCUenta*/
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
         cuenta=cue;
         saldo=sal;
     }
-
+  /*Asigna un nombre a la cuenta*/
     public void asignarNombre(String nom)
     {
         setNombre(nom);
