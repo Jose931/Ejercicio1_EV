@@ -8,7 +8,21 @@ public class CCuenta {
 
     private String nombre;
     private String cuenta;
-    private double saldo;
+    public String getCuenta() {
+		return cuenta;
+	}
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+	public double getSaldo() {
+		return saldo;
+	}
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+
+	private double saldo;
     private double tipoInteres;
 
 
